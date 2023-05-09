@@ -1,0 +1,30 @@
+.card_marketing {
+    width: 100%;
+    max-width: var(--max-width);
+    margin: auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10rem;
+}
+
+
+.card_marketing h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+@media (max-width:1000px) {
+    .card_marketing {
+        padding: 0 10px;
+    }
+}
+
+@media (max-width:900px) {
+    .card_marketing {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-bottom: 5rem;
+    }
+}

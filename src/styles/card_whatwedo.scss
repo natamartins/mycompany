@@ -1,0 +1,97 @@
+.card_whatwedo {
+    width: 100%;
+    max-width: var(--max-width);
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    // margin-top: 12rem;
+    margin-bottom: 10rem;
+}
+
+.card_whatwedo-list01 {
+    margin-top: 10rem;
+}
+
+.card_whatwedo-list01 h2,
+.card_whatwedo-list02 h2 {
+    margin-bottom: 2rem;
+
+    span {
+        color: var(--blue-text01);
+    }
+}
+
+.card_whatwedo-textinfo {
+    max-width: 33rem;
+}
+
+.card_whatwedo-list01 p,
+.card_whatwedo-list02 p {
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+}
+
+.card_whatwedo-list01 ul li,
+.card_whatwedo-list02 ul li {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 1rem;
+}
+
+.card_whatwedo-img01 img {
+    width: 100%;
+    height: 280px;
+    border-radius: 5px;
+}
+
+.card_whatwedo-img02 img {
+    width: 100%;
+    height: 280px;
+}
+
+
+.card_whatwedo-list01 {
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+
+.card_whatwedo-list02 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width:1000px) {
+    .card_whatwedo {
+        padding: 0 10px;
+    }
+}
+
+@media (max-width:900px) {
+    .card_whatwedo {
+        margin-bottom: 5rem;
+    }
+
+    .card_whatwedo-list01 {
+        flex-direction: column;
+    }
+
+    .card_whatwedo-list02 {
+        grid-template-columns: 1fr;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .card_whatwedo-textinfo {
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+    }
+
+    .card_whatwedo-img02 {
+        grid-row: 2;
+    }
+}

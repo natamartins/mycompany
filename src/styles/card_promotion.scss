@@ -1,0 +1,117 @@
+.card_promotion {
+    background-color: #333;
+    margin-bottom: 10rem;
+
+    ul {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+
+
+
+        li {
+            margin-bottom: 2rem;
+        }
+    }
+}
+
+.card_promotion ul li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--white);
+    font-weight: bold;
+
+    div {
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        background-color: #B4EC22;
+        box-shadow: 0px 0px 0px 3px rgb(0, 0, 0, 25%);
+    }
+}
+
+.card_promotion-contant {
+    width: 100%;
+    max-width: var(--max-width);
+    margin: auto;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.card_promotion-box {
+    width: 100%;
+    margin: auto;
+    max-width: 280px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 10px;
+    background-color: #555;
+    color: var(--white);
+    border-radius: 5px;
+    border: 2px solid #111;
+    position: relative;
+
+    h1 {
+        margin-bottom: 1rem;
+    }
+
+    p {
+        margin-bottom: 10px;
+    }
+}
+
+.card_promotion-box p:nth-child(5) {
+    margin-top: -10px;
+    margin-bottom: 2rem;
+    font-size: 10px;
+}
+
+.card_promotion-box button {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #B4EC22;
+    border-radius: 2px;
+    padding: 5px 1rem;
+    cursor: pointer;
+
+}
+
+.card_promotion-box button:hover {
+    background-color: #111;
+    scale: 1.2;
+}
+
+.card_promotion-textdecoration {
+    position: absolute;
+    top: -10px;
+    left: -15px;
+
+    background-color: #555;
+    padding: 5px 1rem;
+    border-radius: 2px;
+    border: 2px solid #B4EC22;
+    color: #B4EC22;
+    font-weight: bold;
+    font-weight: bold;
+}
+
+.infotext {
+    max-width: 130px;
+    margin: auto;
+
+    span {
+        color: #B4EC22;
+        text-decoration: line-through;
+    }
+}
+
+@media (max-width: 900px) {
+    .card_promotion {
+        margin-bottom: 5rem;
+    }
+}

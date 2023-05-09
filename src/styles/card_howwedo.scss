@@ -1,0 +1,52 @@
+.card_howwedo-bg {
+    background-color: var(--blue-text01);
+    margin-bottom: 10rem;
+}
+
+.card_howwedo {
+    width: 100%;
+    max-width: var(--max-width);
+    margin: auto;
+    text-align: center;
+    color: var(--white);
+    padding: 3rem 0;
+
+    span {
+        color: var(--blue-text02);
+    }
+}
+
+.card_howwedo h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+
+.card_howwedo ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+
+    h2 {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width:1000px) {
+    .card_howwedo {
+        padding: 2rem 10px;
+    }
+}
+
+@media (max-width:900px) {
+    .card_howwedo-bg {
+        margin-bottom: 5rem;
+    }
+
+    .card_howwedo h1 {
+        font-size: 2rem;
+    }
+
+    .card_howwedo ul {
+        flex-direction: column;
+    }
+}
