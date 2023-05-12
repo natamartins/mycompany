@@ -28,7 +28,6 @@
     cursor: pointer;
     color: var(--white);
     font-size: 2rem;
-    cursor: pointer;
     background-color: red;
 }
 
@@ -70,6 +69,6 @@
 
 @media (max-width:900px) {
     .card_nav {
-        margin-bottom: 1rem;
+        margin-bottom: 0;
     }
 }
