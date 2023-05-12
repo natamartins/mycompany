@@ -151,7 +151,7 @@ export default function Home(): JSX.Element {
             <Image src={Marketing} alt="" />
           </div>
         </section>
-        <section className="card_promotion">
+        {/* <section className="card_promotion">
           <div className="card_promotion-contant" data-aos="zoom-in">
             <div className="card_promotion-box">
               <span className="card_promotion-textdecoration">promoção</span>
@@ -185,7 +185,7 @@ export default function Home(): JSX.Element {
               <div />
             </li>
           </ul>
-        </section>
+        </section> */}
       </main>
       <footer className="card_footer">
         <section className="card_footer-info" id="createproject">
