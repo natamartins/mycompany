@@ -49,8 +49,9 @@ export default function Home(): JSX.Element {
           <div className="card_presentation-boxcontent" data-aos="fade-down">
             <h1>Construa já seu e-commece!</h1>
             <p>
-              Seu negócio corre um grande perigo se não estiver conectado
-              a internet, ela pode deixar de existir.
+              Impulsione seu negócio online com NSoluçõs!
+              Somos especializados em criação de landing pages e
+              e-commerce, atendendo tanto pequenos quanto grandes negócios.
             </p>
             <span>
               <ChevronDown size={50} color="#9CA2EF" />
@@ -62,9 +63,13 @@ export default function Home(): JSX.Element {
             <div className="card_whatwedo-textinfo" data-aos="fade-up-right">
               <h2>O que <span>fazemos</span> ?</h2>
               <p>
-                Somos uma empresa focada em ajudar a decolar seus negócios!
-                Aqui você tem total confiança de que seu produto será
-                feito com qualidade!
+                Aumente suas vendas e conquiste clientes com nossas
+                landing pages personalizadas. Nossa equipe de especialistas
+                criará uma página envolvente, otimizada para conversões,
+                que representa sua marca de forma única. Não importa o
+                setor em que você atua, garantimos que sua landing page
+                seja atraente, persuasiva e capaz de direcionar os
+                visitantes para ação.
               </p>
               <ul>
                 <CardList text='Prezamos pela melhor experiência do usuário' />
@@ -90,8 +95,8 @@ export default function Home(): JSX.Element {
               <ul>
                 <CardList text='e-commecer' />
                 <CardList text='landpage' />
-                <CardList text='Blogs' />
-                <CardList text='Alterações do designer do seu site' />
+                <CardList text='Em breve forneceremos mais serviços!' />
+
               </ul>
             </div>
 
@@ -128,7 +133,7 @@ export default function Home(): JSX.Element {
                 <h2>Código</h2>
                 <p>
                   Através das tecnologias React,
-                  TypeScript e Next, damos vida ao
+                  TypeScript e Next ou Vue, damos vida ao
                   design levando em consideração
                   desempenho e <span>qualidade</span>.
                 </p>
@@ -143,8 +148,12 @@ export default function Home(): JSX.Element {
               todo brasil? sim é possivel.
             </h1>
             <p>
-              76% dos brasileira durante a pandemia passaram a comprar online, muitas
-              empresas e negócios  quebraram ou deixaram de existir pelo simples fato de  não estar presente com seus produtos na internet.
+              Com o avanço da tecnologia e a mudança nos hábitos de
+              consumo, o comércio eletrônico se tornou uma das
+              indústrias mais lucrativas e em crescimento. Criar
+              um e-commerce é a maneira perfeita de expandir seus
+              negócios, alcançar um público global e aumentar suas
+              vendas exponencialmente.
             </p>
           </div>
           <div className="card_marketing-img" data-aos="fade-up-left">
@@ -193,8 +202,9 @@ export default function Home(): JSX.Element {
             <h1>Vamos  construir  um  mundo para seu negócio!</h1>
             <div className="card_footer-infotext">
               <p>
-                Trabalhamos  na construções dos melhores produtos e
-                serviços para o seu negócio decolar no digital.
+                Potencialize o seu negócio online com NSoluções.
+                Oferecemos serviços de criação de landing pages e
+                e-commerce, ideais para pequenas e grandes empresas.
               </p>
               <p>Comece um projeto conosco</p>
             </div>
