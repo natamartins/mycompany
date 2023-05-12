@@ -199,7 +199,6 @@ export default function Home(): JSX.Element {
               <p>Comece um projeto conosco</p>
             </div>
           </div>
-
           <Form />
         </section>
         <div className="card_footer-contact">
