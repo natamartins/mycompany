@@ -13,7 +13,7 @@ import Image from "next/image"
 import Imagem01 from '../../public/img/3d.svg'
 import Photo03 from '../../public/img/Rocket.gif'
 import Photo04 from '../../public/img/Futuristic.gif'
-import Marketing from '../../public/img/marketing.gif'
+import Marketing from '../../public/img/money-bag.png'
 import Form from "@/components/Form"
 
 export default function Home(): JSX.Element {
