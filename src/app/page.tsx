@@ -12,8 +12,8 @@ import Image from "next/image"
 // 
 import Imagem01 from '../../public/img/3d.svg'
 import Photo03 from '../../public/img/Rocket.gif'
-import Photo04 from '../../public/img//Futuristic.gif'
-import Globe from '../../public/img/Globe.gif'
+import Photo04 from '../../public/img/Futuristic.gif'
+import Marketing from '../../public/img/marketing.gif'
 import Form from "@/components/Form"
 
 export default function Home(): JSX.Element {
@@ -148,7 +148,7 @@ export default function Home(): JSX.Element {
             </p>
           </div>
           <div className="card_marketing-img" data-aos="fade-up-left">
-            <Image src={Globe} alt="" />
+            <Image src={Marketing} alt="" />
           </div>
         </section>
         <section className="card_promotion">
