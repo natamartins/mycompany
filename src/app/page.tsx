@@ -5,17 +5,16 @@ import * as Scroll from 'react-scroll'
 let Button = Scroll.Link
 import AOS from 'aos';
 import 'aos/dist/aos.css'
-// 
+
 import { MessageCircleIcon, ChevronDown, Instagram, Linkedin, Menu, Send, Twitter } from "lucide-react"
 import CardList from "@/components/CardList"
 import Image from "next/image"
-// 
+
 import Imagem01 from '../../public/img/3d.svg'
 import Photo03 from '../../public/img/Rocket.gif'
 import Photo04 from '../../public/img//Futuristic.gif'
 import Globe from '../../public/img/Globe.gif'
 import Form from "@/components/Form"
-
 
 export default function Home(): JSX.Element {
   useEffect(() => {
