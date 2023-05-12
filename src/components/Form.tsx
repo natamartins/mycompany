@@ -7,6 +7,9 @@ const Form = () => {
             <label htmlFor="name">Nome</label>
             <input type="text" id="name" name="name" placeholder="insira seu nome" required />
 
+            <label htmlFor="phone">Número</label>
+            <input type="text" id="phone" name="phone" placeholder="insira seu nome" required />
+
             <label htmlFor="email" >Email</label>
             <input type="email" id="email" name="email" placeholder="insira seu email" required />
 

@@ -26,11 +26,14 @@
     margin-bottom: 12rem;
 }
 
-.card_presentation-boximg img {
+.card_presentation-boximg {
     position: relative;
-    width: 500px;
-    height: 300px;
-    border-radius: 5px;
+
+    img {
+        width: 500px;
+        height: 300px;
+        border-radius: 5px;
+    }
 }
 
 .card_borderimg {
