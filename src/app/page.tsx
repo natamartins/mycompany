@@ -202,9 +202,9 @@ export default function Home(): JSX.Element {
             <h1>Vamos  construir  um  mundo para seu negócio!</h1>
             <div className="card_footer-infotext">
               <p>
-                Potencialize o seu negócio online com NSoluções.
-                Oferecemos serviços de criação de landing pages e
-                e-commerce, ideais para pequenas e grandes empresas.
+                Crie a sua loja virtual dos sonhos com a nossa equipe
+                especializada em serviços de e-commerce para
+                empresas de todos os portes.
               </p>
               <p>Comece um projeto conosco</p>
             </div>
