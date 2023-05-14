@@ -10,10 +10,10 @@ import CardList from "@/components/CardList"
 import Image from "next/image"
 // 
 import Logo from '../../public/img/logo-company.svg'
-import Imagem01 from '../../public/img/3d.svg'
+import Imagem01 from '../../public/img/img-web.jpg'
 import Photo03 from '../../public/img/Rocket.gif'
 import Photo04 from '../../public/img/Futuristic.gif'
-import Marketing from '../../public/img/money-bag.png'
+import Marketing from '../../public/img/tecnolog-removebg-preview.png'
 import Form from "@/components/Form"
 import Link from "next/link";
 
@@ -46,9 +46,9 @@ export default function Home(): JSX.Element {
       </header>
       <main className="card_container">
         <section className="card_presentation" id="representation">
-          <span className="card_background" />
+          {/* <span className="card_background" /> */}
           <div className="card_presentation-boximg" data-aos="fade-right">
-            <span className="card_borderimg" />
+            {/* <span className="card_borderimg" /> */}
             <Image src={Imagem01} alt="" />
           </div>
           <div className="card_presentation-boxcontent" data-aos="fade-down">

@@ -1,49 +1,52 @@
 .card_container {
-    margin-top: 15rem;
-}
-
-.card_background {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    max-width: 450px;
-    height: 300px;
-    border-radius: 0px 200px 200px 0px;
-    background-color: var(--blue-nav);
-    margin-bottom: 8rem;
-    z-index: -1;
+    margin-top: 10rem;
 }
 
 .card_presentation {
     width: 100%;
     max-width: var(--max-width);
     display: grid;
-    grid-template-columns: 1fr auto;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
     justify-content: space-between;
     margin: auto;
-    // margin-bottom: 12rem;
 }
 
 .card_presentation-boximg {
     position: relative;
 
     img {
-        width: 500px;
-        height: 300px;
-        border-radius: 5px;
+        width: 600px;
+        height: 400px;
     }
 }
 
-.card_borderimg {
-    position: absolute;
-    width: 500px;
-    height: 280px;
-    bottom: 5px;
-    left: -12px;
-    background-color: transparent;
-    border: solid 2px var(--pink-text);
-    border-radius: 10px;
+// .card_background {
+//     position: absolute;
+//     bottom: 0;
+//     left: 0;
+//     width: 100%;
+//     max-width: 450px;
+//     height: 300px;
+//     border-radius: 0px 200px 200px 0px;
+//     background-color: var(--blue-nav);
+//     // margin-bottom: 8rem;
+//     z-index: -1;
+// }
+
+// .card_borderimg {
+//     position: absolute;
+//     width: 500px;
+//     height: 280px;
+//     bottom: 5px;
+//     left: -12px;
+//     background-color: transparent;
+//     border: solid 2px var(--pink-text);
+//     border-radius: 10px;
+// }
+
+.card_presentation-boxcontent {
+    margin-top: 7rem;
 }
 
 .card_presentation-boxcontent h1 {
@@ -104,6 +107,7 @@
 
         img {
             width: 100%;
+            height: auto;
         }
     }
 

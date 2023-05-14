@@ -9,7 +9,7 @@
     max-width: var(--max-width);
     display: flex;
     margin: auto;
-    padding: 1.5rem 0;
+    padding: 1rem 0;
     justify-content: space-between;
 }
 
@@ -93,5 +93,10 @@
 
     .card_nav-link {
         gap: 10px;
+        font-size: 13px;
+    }
+
+    .card_nav-link a:nth-child(2) {
+        padding: 5px;
     }
 }
