@@ -14,15 +14,12 @@
 
 .card_presentation-boximg {
     position: relative;
-
-    img {
-        width: 600px;
-        height: 400px;
-    }
+    width: 600px;
+    height: 400px;
 }
 
 .card_presentation-boxcontent {
-    margin-top: 7rem;
+    margin-top: 8rem;
     position: relative;
 }
 
@@ -71,7 +68,7 @@
 
 @media (max-width:900px) {
     .card_container {
-        margin-top: 7rem;
+        margin-top: 0rem;
     }
 
     .card_presentation {
@@ -80,7 +77,7 @@
         text-align: center;
         justify-content: center;
         align-items: center;
-        margin-bottom: 0rem;
+        gap: 0px;
     }
 
     .card_background {
@@ -89,6 +86,7 @@
 
     .card_presentation-boxcontent {
         grid-row: 1;
+        margin-bottom: -8rem;
     }
 
     .card_presentation-boxcontent h1 {
@@ -101,14 +99,20 @@
 
     .card_presentation-boximg {
         padding: 0 10px;
+        width: 100%;
+        height: auto;
 
         img {
             width: 100%;
-            height: auto;
         }
     }
 
-    .card_borderimg {
-        display: none;
+
+    .card_presentation-arrow {
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        animation: arrow 2s infinite;
     }
 }

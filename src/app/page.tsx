@@ -1,11 +1,12 @@
 "use client"
 import React, { useEffect } from "react"
+import Link from "next/link";
 import * as Scroll from 'react-scroll'
 let Button = Scroll.Link
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 // 
-import { ChevronDown, Instagram, Linkedin, Menu, Twitter } from "lucide-react"
+import { Instagram, Linkedin, Twitter } from "lucide-react"
 import CardList from "@/components/CardList"
 import Image from "next/image"
 // 
@@ -16,7 +17,7 @@ import Photo04 from '../../public/img/Futuristic.gif'
 import Marketing from '../../public/img/tecnolog-removebg-preview.png'
 import Arrow from '../../public/img/Arrow.jpg'
 import Form from "@/components/Form"
-import Link from "next/link";
+
 
 export default function Home(): JSX.Element {
   useEffect(() => {
@@ -40,16 +41,11 @@ export default function Home(): JSX.Element {
             <Button style={{ cursor: 'pointer' }} to="whatwedo" spy={true} smooth={true} offset={50} duration={500} >O que fazemos</Button>
             <Button style={{ cursor: 'pointer' }} to="createproject" spy={true} smooth={true} offset={50} duration={500} >Começar projeto</Button>
           </div>
-          {/* <div className="card_nav-menu">
-            <Menu />
-          </div> */}
         </nav>
       </header>
       <main className="card_container">
         <section className="card_presentation" id="representation">
-          {/* <span className="card_background" /> */}
           <div className="card_presentation-boximg" data-aos="fade-right">
-            {/* <span className="card_borderimg" /> */}
             <Image src={Imagem01} alt="" />
           </div>
           <div className="card_presentation-boxcontent" data-aos="fade-down">
@@ -139,7 +135,7 @@ export default function Home(): JSX.Element {
                 <h2>Código</h2>
                 <p>
                   Através das tecnologias React,
-                  TypeScript e Next ou Vue, damos vida ao
+                  TypeScript, VIte, Next ou Vue, damos vida ao
                   design levando em consideração
                   desempenho e <span>qualidade</span>.
                 </p>
