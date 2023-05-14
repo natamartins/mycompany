@@ -1,10 +1,10 @@
 import '../styles/style.scss'
-import { Roboto } from 'next/font/google'
+import { Paytone_One } from 'next/font/google'
 
 
-const inter = Roboto({
+const inter = Paytone_One({
   subsets: ['latin'],
-  weight: '900'
+  weight: '400'
 })
 
 export const metadata = {

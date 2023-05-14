@@ -1,35 +1,40 @@
 "use client"
 import React, { useEffect } from "react"
-import Link from "next/link"
 import * as Scroll from 'react-scroll'
 let Button = Scroll.Link
 import AOS from 'aos';
 import 'aos/dist/aos.css'
 // 
-import { MessageCircleIcon, ChevronDown, Instagram, Linkedin, Menu, Send, Twitter } from "lucide-react"
+import { ChevronDown, Instagram, Linkedin, Menu, Twitter } from "lucide-react"
 import CardList from "@/components/CardList"
 import Image from "next/image"
 // 
+import Logo from '../../public/img/logo-company.svg'
 import Imagem01 from '../../public/img/3d.svg'
 import Photo03 from '../../public/img/Rocket.gif'
 import Photo04 from '../../public/img/Futuristic.gif'
 import Marketing from '../../public/img/money-bag.png'
 import Form from "@/components/Form"
+import Link from "next/link";
 
 export default function Home(): JSX.Element {
   useEffect(() => {
+    window.scrollTo(0, 0)
     AOS.init({ duration: 1500 })
   }, []);
+
 
   return (
     <>
       <header className='container-nav' id="nav">
         <nav className='card_nav'>
-          <Button to="nav" onClick={() => window.scrollTo(0, 0)} spy={true} smooth={true} offset={50} duration={500} >
-            <h1>
-              NS<span>oluções</span>
-            </h1>
-          </Button>
+          <Link href='/' onClick={() => window.scrollTo(0, 0)}>
+            <Image src={Logo} alt="" />
+            <div>
+              <h1>NS</h1>
+              <p>Nsoluções</p>
+            </div>
+          </Link>
           <div className='card_nav-link'>
             <Button style={{ cursor: 'pointer' }} to="whatwedo" spy={true} smooth={true} offset={50} duration={500} >O que fazemos</Button>
             <Button style={{ cursor: 'pointer' }} to="createproject" spy={true} smooth={true} offset={50} duration={500} >Começar projeto</Button>
