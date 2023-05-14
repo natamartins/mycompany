@@ -14,6 +14,7 @@ import Imagem01 from '../../public/img/img-web.jpg'
 import Photo03 from '../../public/img/Rocket.gif'
 import Photo04 from '../../public/img/Futuristic.gif'
 import Marketing from '../../public/img/tecnolog-removebg-preview.png'
+import Arrow from '../../public/img/Arrow.jpg'
 import Form from "@/components/Form"
 import Link from "next/link";
 
@@ -39,9 +40,9 @@ export default function Home(): JSX.Element {
             <Button style={{ cursor: 'pointer' }} to="whatwedo" spy={true} smooth={true} offset={50} duration={500} >O que fazemos</Button>
             <Button style={{ cursor: 'pointer' }} to="createproject" spy={true} smooth={true} offset={50} duration={500} >Começar projeto</Button>
           </div>
-          <div className="card_nav-menu">
+          {/* <div className="card_nav-menu">
             <Menu />
-          </div>
+          </div> */}
         </nav>
       </header>
       <main className="card_container">
@@ -58,9 +59,9 @@ export default function Home(): JSX.Element {
               Somos especializados em criação de landing pages e
               e-commerce, atendendo tanto pequenos quanto grandes negócios.
             </p>
-            <span>
-              <ChevronDown size={50} color="#9CA2EF" />
-            </span>
+            <div className="card_presentation-arrow">
+              <Image src={Arrow} alt="" />
+            </div>
           </div>
         </section>
         <section className="card_whatwedo" id="whatwedo">
@@ -204,6 +205,8 @@ export default function Home(): JSX.Element {
       <footer className="card_footer">
         <section className="card_footer-info" id="createproject">
           <div className="card_footer-box" data-aos="zoom-in-right">
+            <span className="card_footer-blur01" />
+            <span className="card_footer-blur02" />
             <h1>Vamos  construir  um  mundo para seu negócio!</h1>
             <div className="card_footer-infotext">
               <p>

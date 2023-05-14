@@ -5,6 +5,11 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 10rem;
+    margin-top: 5rem;
+}
+
+.card_footer-box {
+    position: relative;
 }
 
 
@@ -13,7 +18,10 @@
     max-width: 70%;
     font-size: 3rem;
     margin-bottom: 2rem;
-
+    background: linear-gradient(270deg, #7D45DC -18.52%, #B06AB3 112.96%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .card_footer-info p {
@@ -38,6 +46,16 @@
     grid-template-columns: 1fr auto;
     justify-content: space-between;
     margin-bottom: 1rem;
+}
+
+.card_footer-contact p {
+    color: rgb(222, 222, 222);
+    font-weight: bold;
+}
+
+.card_footer-contact div svg:hover {
+    cursor: pointer;
+    color: blue;
 }
 
 .card_footer-contact div {
@@ -80,7 +98,7 @@
         gap: 10px;
         background-color: transparent;
         border: 2px solid #B4EC22;
-        border-radius: 2px;
+        border-radius: 5px;
         padding: 5px 1rem;
         cursor: pointer;
     }
@@ -91,6 +109,33 @@
     color: #fff;
     scale: 1.2;
 }
+
+
+.card_footer-blur01 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    top: -3rem;
+    left: -3rem;
+    background: #DDDFFA;
+    filter: blur(17.5px);
+    z-index: -1;
+}
+
+
+.card_footer-blur02 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    top: 5rem;
+    left: 7rem;
+    background: #DDDFFA;
+    filter: blur(17.5px);
+    z-index: -1;
+}
+
 
 @media (max-width:1000px) {
 
