@@ -219,10 +219,10 @@ export default function Home(): JSX.Element {
         <div className="card_footer-contact">
           <p>Natã Martins © Todos os direitos reservados.</p>
           <div>
-            <Link href='https://www.instagram.com/ns_solucoes2/?theme=dark' >
+            <Link href='https://www.instagram.com/ns_solucoes2/?theme=dark' target="_blank" >
               <Instagram />
             </Link>
-            <Link href='https://www.linkedin.com/in/nsolucoes2023'>
+            <Link href='https://www.linkedin.com/in/nsolucoes2023' target="_blank">
               <Linkedin />
             </Link>
             <Twitter />
