@@ -170,11 +170,11 @@ export default function Home(): JSX.Element {
               <h1>Até o final deste mês</h1>
               <p>Criação de Landpage</p>
               <div className="infotext">
-                <p>de R$ <span>1300</span> por</p>
+                <p>de R$ <span>1900</span> por</p>
                 <p>até 3x de </p>
-                <p>R$280</p>
+                <p>R$400</p>
               </div>
-              <p>á vista R$ 780</p>
+              <p>á vista R$ 1.000</p>
               <button>
                 <MessageCircleIcon />
                 <Link href='mailto:nata.codedev@gmail.com'>
