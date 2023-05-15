@@ -1,7 +1,6 @@
 import '../styles/style.scss'
 import { Paytone_One } from 'next/font/google'
 
-
 const inter = Paytone_One({
   subsets: ['latin'],
   weight: '400'
