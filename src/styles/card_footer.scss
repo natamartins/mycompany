@@ -45,6 +45,10 @@
     grid-template-columns: 1fr auto;
     justify-content: space-between;
     margin-bottom: 1rem;
+
+    a {
+        color: #000;
+    }
 }
 
 .card_footer-contact p {
