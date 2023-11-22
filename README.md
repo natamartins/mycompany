@@ -1,34 +1,54 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## 🔰 Natã Martins 
+<h1 align="center" style="text-align: center;">
+  🧩 NSoluções
+</h1>
+    
+<h2 id="project">📁 Project</h2>
+<p>This is a very complete project that I created, it is a website for a software company,
+  where the company presents its services, showing the company's portfolio with contact information. 
+</p>
+<p>This is a very complete and functional project.</p>
 
-## Getting Started
+<h2 id="tecnology">💻 technology</h2>
+This project was developed with the following technologies:
 
-First, run the development server:
+- Next.JS
+- TypeScript
+- Sass
+  
+<h2>Good habits</h2>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+- Clean Code
+- Web Responsive
+
+<h2 id="usage">🎯 Use</h2>
+
+The application is available for use [aqui](https://mycompany-iota.vercel.app/). You can also run it on your machine locally. Make sure you have `Node.js` and `yarn` installed before proceeding with the steps below:
+
+1. Clone  the project:
+
+```
+$ git clone https://github.com/natamartins/mycompany.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. In your termi, access the project folder:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+$ cd mycompany
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. Install dependencies
 
-## Learn More
+```
+$ yarn install
+```
 
-To learn more about Next.js, take a look at the following resources:
+4. Start the project:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```
+$ yarn  dev
+```
+## Socia network
+<div style="display: flex;">
+  <a href="https://www.linkedin.com/in/nata-martins/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" style="margin-right: 2vw" target="_blank"></a>
+</div>
